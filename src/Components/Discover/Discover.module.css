@@ -1,6 +1,9 @@
 .mainContainer{
 
     display: flex;
+    margin-top: 210px;
+
+   
 
 
 }
@@ -8,9 +11,10 @@
 .mainContainer img{
     width: 400px;
     height: 540px;
+
 }
 .textContainer{
-    margin-left: 13px;
+    margin-left: 23px;
 
 
 } 

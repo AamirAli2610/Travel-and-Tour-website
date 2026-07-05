@@ -8,7 +8,7 @@ const Nav = () => {
     <div className={styels.container}>
         <nav>
             <h1>
-              <Logo />
+
             </h1>
             
             <div className={styels.links}>
