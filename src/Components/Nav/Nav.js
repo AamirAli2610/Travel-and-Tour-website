@@ -12,11 +12,11 @@ const Nav = () => {
             </h1>
             
             <div className={styels.links}>
-                <a href="#">Home</a>
-                <a href="#">About Us</a>
-                <a href="#">Destinations</a>
-                <a href="#">Programs</a>
-                <a href="#">contact</a>
+               <button>Home</button>
+<button>About Us</button>
+<button>Destinations</button>
+<button>Programs</button>
+<button>Contact</button>
             </div>
 
         </nav>
