@@ -1,6 +1,6 @@
 import React from 'react';
 import styels from './Nav.module.css';
-import Logo from '../logo/Logo';
+
 
 const Nav = () => {
   
