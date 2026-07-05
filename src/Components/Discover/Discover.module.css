@@ -1,0 +1,43 @@
+.mainContainer{
+
+    display: flex;
+
+
+}
+
+.mainContainer img{
+    width: 400px;
+    height: 540px;
+}
+.textContainer{
+    margin-left: 13px;
+
+
+} 
+.textContainer h1{
+    color: brown;
+
+}
+.textContainer p{
+    width: 270px;
+
+}
+
+@media all and (max-width: 450px) {
+
+    .mainContainer{
+        flex-direction: column;
+    }
+
+    .mainContainer img{
+    /* width: 180px; */
+    height: 340px;
+}
+
+.textContainer p{
+    width: 100%;
+
+}
+    
+    
+}

@@ -1,0 +1,42 @@
+footer{
+    background-color: #1E1E1E;
+    height: 100%;
+    display: flex;
+    color: white;
+
+}
+
+footer .aboutUsSection{
+    width: 350px;
+    margin-right: 20px;
+    
+}
+
+footer .aboutUsSection h2{
+    color: rgb(230, 92, 92);
+}
+
+footer .contactUsSection{
+
+}
+footer .contactUsSection h2{
+    color: rgb(230, 92, 92);
+
+
+   
+
+
+}
+
+
+
+@media all and (max-width: 450px) {
+    footer{
+        flex-direction: column;
+
+
+
+    }
+   
+
+}

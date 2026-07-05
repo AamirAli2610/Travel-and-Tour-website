@@ -1,0 +1,15 @@
+.travel{
+    font-size: 38px;
+    color: rgb(237, 145, 7);
+}
+.tour{
+    font-size: 38px;
+    color: rgb(252, 82, 82);
+}
+
+@media all and (max-width: 450px) {
+    .logo{
+        margin-left: 35px;
+    }
+    
+}

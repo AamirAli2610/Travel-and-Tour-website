@@ -1,0 +1,61 @@
+.container{
+
+background-color: rgb(228, 228, 228);
+margin-top: 20px;
+
+}
+.logo{
+    margin-left: 15px;
+
+}
+
+.container nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+
+}
+.links a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    font-size: 18px;
+    border-right: 2px solid rgb(171, 168, 168);
+   padding-right: 10px;
+   transition: transform 0.3s ease;
+
+
+}
+.links a:hover{
+    display:inline-block;
+    color: rgb(55, 61, 234);
+    transform: scale(1.1);
+}
+
+@media all and (max-width: 450px) {
+    
+    .links{
+        margin-left: 10px;
+    }
+
+    .links a{
+        margin-left:  10px;
+
+
+    }
+    .container nav{
+    display: block;
+
+    }
+    .links a:hover{
+    display: inline;
+    color: rgb(55, 61, 234);
+
+
+}
+
+
+    
+}
