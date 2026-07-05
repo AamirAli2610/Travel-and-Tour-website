@@ -17,8 +17,8 @@ const Footer = () => {
             <div className={styles.contactUsSection}>
                 <h2>Contact us</h2>
                 <p>740 13th St, San Diego, CA 92101, USA</p>
-                <p>Tel: <a href="#">920318323440</a></p>
-                <p>Email: <a href="#">info@gmail.com</a></p>
+                <p>Tel: <a href="/">920318323440</a></p>
+                <p>Email: <a href="/">info@gmail.com</a></p>
             </div>
 
 
