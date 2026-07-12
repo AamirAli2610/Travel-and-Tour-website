@@ -1,20 +1,29 @@
 .mainContainer{
 
     display: flex;
-    margin-top: 210px;
 
-   
+}
+.discoverBtn{
+    background-color: brown;
+    color: white;
+    border: 1px solid grey;
+    position: relative;
 
 
+    
 }
 
 .mainContainer img{
     width: 400px;
     height: 540px;
 
+
+
+
 }
 .textContainer{
-    margin-left: 23px;
+    margin: 23px;
+
 
 
 } 

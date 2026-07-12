@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: 2px solid rgb(217, 96, 9);;
+    margin: 20px;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.container img{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 1s ease;
+}
+.container img:hover{
+
+    transform: scale(1.05);
+}
+
+.container h2{
+    color: rgb(217, 96, 9);
+    font-size: 28px;
+}

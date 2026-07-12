@@ -1,5 +1,6 @@
 import React from 'react';
 import styels from './Nav.module.css';
+import { Link } from 'react-router-dom';
 
 
 const Nav = () => {
@@ -12,11 +13,11 @@ const Nav = () => {
             </h1>
             
             <div className={styels.links}>
-               <button>Home</button>
-<button>About Us</button>
-<button>Destinations</button>
-<button>Programs</button>
-<button>Contact</button>
+           <Link to="/">Home</Link>
+          <Link to="/about">About Us</Link>
+          <Link to="/destinations">Destinations</Link>
+          <Link to="/programs">Programs</Link>
+          <Link to="/contact">Contact</Link>
             </div>
 
         </nav>
