@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Discover.module.css'
 import discoverImage from '../../IMages/discover.jpg'
-import { Link } from 'react-router-dom'
+
 
 const Discover = () => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import PlacesCard from './PlacesCard'
-import Nav from '../Nav/Nav'
-import Footer from '../footer/Footer'
+
+
 import placesData from "../../assets/PlacesData";
 import styles from './Places.module.css'
 
