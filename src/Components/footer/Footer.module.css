@@ -8,12 +8,15 @@ footer{
 
 footer .aboutUsSection{
     width: 350px;
-    margin-right: 20px;
+    margin: 0px 80px;
+
+
     
 }
 
 footer .aboutUsSection h2{
     color: rgb(230, 92, 92);
+
 }
 
 footer .contactUsSection{

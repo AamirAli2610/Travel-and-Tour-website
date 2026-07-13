@@ -1,6 +1,7 @@
 import React from 'react';
 import styels from './Nav.module.css';
 import { Link } from 'react-router-dom';
+import Logo from '../logo/Logo';
 
 
 const Nav = () => {
@@ -8,9 +9,9 @@ const Nav = () => {
   return (
     <div className={styels.container}>
         <nav>
-            <h1>
-
-            </h1>
+            <div>
+              <Logo />
+            </div>
             
             <div className={styels.links}>
            <Link to="/">Home</Link>

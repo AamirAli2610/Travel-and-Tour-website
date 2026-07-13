@@ -6,6 +6,9 @@
     font-size: 38px;
     color: rgb(252, 82, 82);
 }
+.logo{
+    margin-left: 20px;
+}
 
 @media all and (max-width: 450px) {
     .logo{

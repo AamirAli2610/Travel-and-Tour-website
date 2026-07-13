@@ -1,12 +1,11 @@
 import React from 'react'
 import styles from './Hero.module.css'
 import heroImage from '../../IMages/hero.jpg'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link} from 'react-router-dom'
 
 
 const Hero = () => {
-
-
+  
   return (
     <div className={styles.hero}>
 

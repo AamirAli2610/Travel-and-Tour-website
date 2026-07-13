@@ -1,0 +1,42 @@
+.container{
+    width: 300px;
+    border: 2px solid gray;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.container img{
+    width: 280px;
+    height: 230px;
+    transition: transform 1s ease;
+    border-radius: 10px;
+
+}
+.container img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+
+}
+.container .bookNOwBTn{
+    background-color: rgb(224, 74, 74);
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid grey;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: transform 1s ease;
+
+
+}
+
+.container .bookNOwBTn:hover{
+    transform: scale(1.05);
+
+}
+
+
